@@ -1,0 +1,462 @@
+/* Custom Logo Construction */
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+}
+
+.logo-bar-tall {
+  width: 6px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 1px;
+}
+
+.logo-bar-wide {
+  width: 16px;
+  height: 6px;
+  background-color: #000;
+  border-radius: 1px;
+}
+
+/* Specific Blue Gradient for Login Button */
+.btn-login-gradient {
+  background: linear-gradient(to right, #1e4ea1, #002147); /* Deep blue to navy */
+  color: white !important;
+  border: none;
+  padding: 8px 32px;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.btn-login-gradient:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+/* Nav Link Styling */
+.nav-link-custom {
+  color: #333 !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+}
+
+/* Active State Underline */
+.nav-link-custom.active {
+  color: #0d6efd !important;
+  border-bottom: 2px solid #0d6efd;
+}
+
+/* Desktop spacing adjustment */
+@media (min-width: 992px) {
+  .navbar-nav {
+    gap: 15px;
+  }
+}/* Matching the footer background from your image */
+.footer-custom {
+  background-color: #517293; /* Slate blue color from image */
+  color: white;
+  padding: 40px 0 20px 0;
+}
+
+.footer-link {
+  color: white !important;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: opacity 0.2s;
+}
+
+.footer-link:hover {
+  opacity: 0.8;
+}
+
+.social-icons {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}.footer-custom {
+  background-color: #517293; /* Slate blue from your image */
+  color: white;
+  padding-top: 30px;
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.2);
+  color: #0d6efd; /* Light blue hover effect */
+}/* Hero Styles */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+}
+
+/* Ensure the Login button in Navbar and Get Started button look identical */
+.btn-login-gradient {
+  background: linear-gradient(to right, #1e4ea1, #002147) !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 33, 71, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-login-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 33, 71, 0.4);
+}
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+}/* Helper for 5 columns in Bootstrap */
+@media (min-width: 768px) {
+  .col-md-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* Shadow to make text readable over the image */
+.shadow-text {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.hero-section {
+  transition: 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Card Hover effect */
+.card.shadow-sm:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}/* Login Page Background */
+.login-wrapper {
+  background-color: #0b0f19; /* You can change this to any color you prefer */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Custom Input Fields */
+.custom-input {
+  background-color: #f0f2f5 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 15px 20px !important;
+  color: #6c757d !important;
+  font-size: 1rem;
+}
+
+/* Placeholder color */
+.custom-input::placeholder {
+  color: #a0aab4;
+}
+
+/* Custom Login Button */
+.btn-login-custom {
+  background: linear-gradient(to right, #1e5ba0, #0a315e) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.btn-login-custom:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+/* Dark background for the entire login page */
+.login-bg {
+  background-color: #080b12; /* Deep Navy Slate */
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Styled inputs to match your image */
+.login-input {
+  background-color: #f0f2f5 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 14px 20px !important;
+  color: #6c757d !important;
+  font-size: 1rem;
+}
+
+/* Custom button with the specific blue gradient */
+.btn-login-blue {
+  background: linear-gradient(to right, #1a5695, #0a2d52) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px !important;
+  min-width: 200px;
+  transition: opacity 0.2s ease;
+}
+
+.btn-login-blue:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+/* Ensures placeholder text looks correct */
+.login-input::placeholder {
+  color: #a0aab4;
+}.timeline-item {
+  position: relative;
+}
+
+.timeline-icon-container {
+  width: 24px; /* Matches the small vertical line width */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* The vertical line between icons */
+.timeline-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 11px; /* Centers the line under the icon */
+  top: 30px;
+  bottom: -20px;
+  width: 1px;
+  background-color: #dee2e6;
+  z-index: 1;
+}
+
+/* Styled buttons to match the "Quick Actions" */
+.btn-light.border {
+  background-color: #e9ecef !important;
+  color: #212529;
+  border: none !important;
+  font-size: 0.85rem;
+}/* Dark blue gradient for primary buttons */
+.btn-login-blue {
+  background: linear-gradient(to right, #1a5695, #0a2d52) !important;
+  border: none !important;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+.btn-login-blue:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(26, 86, 149, 0.4);
+}
+
+/* Light buttons hover effect */
+.btn-quick-action {
+  background-color: #f8f9fa !important;
+  border: 1px solid #dee2e6 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-quick-action:hover {
+  background-color: #ffffff !important;
+  border-color: #1a5695 !important;
+  color: #1a5695 !important;
+  transform: scale(1.05);
+}@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Main font for the entire app */
+body { font-family: 'Inter', sans-serif !important; }
+
+/* Dark Blue Primary Gradient - #195898, #081D32 */
+.btn-login-blue {
+  background: linear-gradient(to right, #195898, #081D32) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px;
+}
+
+/* Quick Action Menu Color - #4D7399 and Hover */
+.btn-quick-action {
+  background-color: #f8f9fa !important;
+  color: #4D7399 !important;
+  border: 1px solid #dee2e6 !important;
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-quick-action:hover {
+  background-color: #ffffff !important;
+  border-color: #195898 !important;
+  color: #195898 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Timeline Vertical Line */
+.timeline-item:not(:last-child)::before {
+  background-color: #4D7399;
+  opacity: 0.3;
+}@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-blue: #195898;
+  --dark-navy: #081D32;
+  --slate-blue: #4D7399;
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--dark-navy);
+}
+
+/* Primary Action & Logout Buttons */
+.btn-edu-primary {
+  background: linear-gradient(to right, var(--primary-blue), var(--dark-navy)) !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 8px 20px;
+}
+
+/* Quick Action Buttons */
+.btn-quick-action {
+  background-color: #f8f9fa !important;
+  color: var(--dark-navy) !important;
+  border: 1px solid #dee2e6 !important;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.btn-quick-action:hover {
+  background-color: #ffffff !important;
+  border-color: var(--primary-blue) !important;
+}
+
+/* Stat Cards */
+.stat-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ebf1f7; /* Matching your image background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Timeline/Activities Fix */
+.timeline-item { position: relative; }
+.timeline-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 30px;
+  bottom: -20px;
+  width: 1px;
+  background-color: #dee2e6;
+}/* Table Specific Styling */
+.table thead th {
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.table tbody td {
+  font-size: 0.95rem;
+}
+
+/* Row Hover Effect */
+.table tbody tr:hover {
+  background-color: #fbfcfd;
+  transition: background-color 0.2s ease;
+}
+
+/* Card Container for Table */
+.card.table-container {
+  border: 1px solid #dce3eb !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03) !important;
+}/* Normal state - Slate Blue */
+.admin-nav-item {
+  color: #4D7399 !important;
+  position: relative;
+  transition: color 0.2s ease-in-out;
+  padding: 0.5rem 1rem !important;
+}
+
+/* Hover state - Primary Blue */
+.admin-nav-item:hover {
+  color: #195898 !important;
+}
+
+/* Active state - Primary Blue + Underline */
+.admin-nav-item.active {
+  color: #195898 !important;
+}
+
+.admin-nav-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  width: 70%;
+  height: 3px;
+  background-color: #195898;
+  border-radius: 2px;
+}
+
+/* Ensure Logo uses Dark Navy */
+.navbar-brand {
+  color: #081D32 !important;
+}/* Navbar Hover and Active Styles */
+.teacher-nav-link {
+  color: #4D7399; /* Slate Blue from your design */
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.teacher-nav-link:hover {
+  color: #195898; /* Primary Blue */
+}
+
+.teacher-nav-link.active {
+  color: #195898 !important;
+}
+
+/* Optional: Add an underline for the active link like in image_cbc5d8.png */
+.teacher-nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #195898;
+}
+
+/* Button Hover Styles */
+.btn-mark-attendance {
+  background-color: #195898;
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.btn-mark-attendance:hover {
+  opacity: 0.9;
+  color: white;
+}
